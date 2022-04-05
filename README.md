@@ -61,9 +61,9 @@ Mål: Gi brukeren mulighet til å velge hvilken operasjon som skal brukes
 
 Her skal vi gi brukeren mulighet til å velge hva de vil skal skje mellom tallene de skriver inn. For eksempel kan de skrive inn '+' for å addere. For å implementere dette, kan det være lurt å prøve seg på en ‘if else blokk’. Disse ser slik ut:
 ```python
-if operator = '+':
+if operator == '+':
 	# implementer addisjon her
-elif operator = '-':
+elif operator == '-':
 	# implementer subtraksjon her
 ...
 ```
@@ -91,7 +91,7 @@ Om du prøvde å skrive inn noe annet enn et tall i del 2, oppdaget du sikkert a
 Eks.
 ```python
 try:
-  float(tall1)
+  print(float(tall1))
 except ValueError:
   # hopp over eller gi beskjed til bruker om at de ikke skrev inn et ekte tall
 ```
