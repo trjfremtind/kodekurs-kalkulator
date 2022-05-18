@@ -8,9 +8,9 @@ I hver del vil vi oppgi noen funksjoner som kan brukes for å løse oppgaven. De
 
 ### Eksempel-output fra ferdig kalkulator:
 ```
-Første tall: 15
-Operator(+ - * /): +
-Andre tall: 14
+> Første tall: 15
+> Operator(+ - * /): +
+> Andre tall: 14
 15.0 + 14.0 = 29.0
 ```
 
