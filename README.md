@@ -6,7 +6,7 @@ Dere kan enten programmere lokalt om dere har Python satt opp på maskinen deres
 
 I hver del vil vi oppgi noen funksjoner som kan brukes for å løse oppgaven. Det betyr ikke at du må bruke disse - det finnes alltid mange måter å gjøre ting på! Om du vil finne ut hva funksjonene vi foreslår gjør, kan det være lurt å sjekke dokumentasjonen. Der finner du en beskrivelse av hva funksjonen gjør, de tilgjengelige parameterne, og gjerne eksempelkode for bruk. Du kan finne dokumentasjonen for funksjonene vi oppgir her: https://docs.python.org/3/library/functions.html
 
-### Eksempel-output fra ferdig enkel kalkulator:
+### Eksempel-output fra ferdig kalkulator:
 ```
 Første tall: 15
 Operator(+ - * /): +
@@ -38,8 +38,8 @@ Funksjoner er en bit med kode som gjerne defineres et annet sted enn programmet 
 Mål: Gi en bruker mulighet til å skrive noe inn i terminalen (en 'streng'), og så skrive strengen tilbake i terminalen.
 
 ### Funksjoner
-- input()
-- print()
+- **input()** for å hente input fra brukeren
+- **print()** for å skrive ut informasjon i terminalen
 
 For å lage en kalkulator, må vi først kunne motta input fra brukeren. Siden vi lager en terminal-kalkulator, vil den inputen komme i form av noe brukeren skriver inn i terminalen når de blir bedt om det. Funksjonene gitt over er alt som skal til for å kunne nå målet med oppgaven. Sjekk dokumentasjonen!
 
@@ -48,7 +48,7 @@ For å lage en kalkulator, må vi først kunne motta input fra brukeren. Siden v
 Mål: Konvertere datatype på input til tall
 
 ### Funksjoner:
-- float()
+- **float()** konverterer en streng til et flyttall (flyttall er tall med komma).
 
 Det vi får tilbake fra input() er en streng; en streng representerer som oftest en tekst av noe slag, og det betyr at man ikke kan utføre matematiske funksjoner med dem. Derfor må disse konverteres til tall for å kunne brukes i kalkulatoren vår.
 
@@ -57,7 +57,7 @@ Det vi får tilbake fra input() er en streng; en streng representerer som oftest
 Mål: Gi brukeren mulighet til å velge hvilken operasjon som skal brukes
 
 ### Funksjoner:
-  ⁃ if .. else (ikke en funksjon egentlig)
+  ⁃ **if .. else** (ikke en funksjon egentlig)
 
 Her skal vi gi brukeren mulighet til å velge hva de vil skal skje mellom tallene de skriver inn. For eksempel kan de skrive inn '+' for å addere. For å implementere dette, kan det være lurt å prøve seg på en ‘if else blokk’. Disse ser slik ut:
 ```python
