@@ -39,8 +39,8 @@ Funksjoner er en bit med kode som gjerne defineres et annet sted enn programmet 
 Mål: Gi en bruker mulighet til å skrive noe inn i terminalen (en 'streng'), og så skrive strengen tilbake i terminalen.
 
 ### Funksjoner
-- **input()** for å hente input fra brukeren
-- **print()** for å skrive ut informasjon i terminalen
+- [**input()**](https://docs.python.org/3/library/functions.html#input) for å hente input fra brukeren
+- [**print()**](https://docs.python.org/3/library/functions.html#print) for å skrive ut informasjon i terminalen
 
 For å lage en kalkulator, må vi først kunne motta input fra brukeren. Siden vi lager en terminal-kalkulator, vil den inputen komme i form av noe brukeren skriver inn i terminalen når de blir bedt om det. Funksjonene gitt over er alt som skal til for å kunne nå målet med oppgaven. Sjekk dokumentasjonen!
 
@@ -49,7 +49,7 @@ For å lage en kalkulator, må vi først kunne motta input fra brukeren. Siden v
 Mål: Konvertere datatype på input til tall
 
 ### Funksjoner:
-- **float()** konverterer en streng til et flyttall (flyttall er tall med komma).
+- [**float()**](https://docs.python.org/3/library/functions.html#float) konverterer en streng til et flyttall (flyttall er tall med komma).
 
 Det vi får tilbake fra input() er en streng; en streng representerer som oftest en tekst av noe slag, og det betyr at man ikke kan utføre matematiske funksjoner med dem. Derfor må disse konverteres til tall for å kunne brukes i kalkulatoren vår.
 
