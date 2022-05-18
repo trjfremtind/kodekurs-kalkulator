@@ -28,8 +28,9 @@ tall1 = input("Første tall: ")
 Variabelen (f. eks. x) blir her satt til en viss verdi (20). Dette kan være nyttig for å lagre verdier for senere bruk, spesielt for returverdier fra funksjoner.
 
 ### Funksjoner
-  - sin(x)
-  - range(20)
+Eksempler på funksjoner:
+  - **sin(x)**
+  - **range(20)**
 
 Funksjoner er en bit med kode som gjerne defineres et annet sted enn programmet ditt, enten for å bidra til organisering, bedre gjenbruk av kode, eller utnytte kode andre har skrevet som allerede gjør det du prøver på. Mange slike funksjoner finnes i standardbiblioteket til Python. Inne i parentesen setter vi parametre som mates inn i funksjonen. Man kan ganske enkelt skrive egne funksjoner også, men for akkurat denne oppgaven er det unødvendig.
 
