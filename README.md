@@ -16,7 +16,7 @@ I hver del vil vi oppgi noen funksjoner som kan brukes for å løse oppgaven. De
 
 ## Intro: Om du ikke har programmert noe før
 
-Her går vi raskt gjennom noen de mest grunnleggende byggeklossene i programmering. På skolebenken vil dette gås gjennom mye mer grundig; dette blir bare en rask gjennomgang som forhåpentligvis vil hjelpe dere gjennom oppgavene.
+Her går vi raskt gjennom noen de mest grunnleggende byggeklossene i programmering. Vi har ikke tid til å lære dette så grundig i dag; dette blir bare en rask gjennomgang som forhåpentligvis vil hjelpe dere gjennom oppgavene.
 
 ### Variabel
 ```python
@@ -32,7 +32,7 @@ Eksempler på funksjoner:
   - **sin(x)**
   - **range(20)**
 
-Funksjoner er en bit med kode som gjerne defineres et annet sted enn programmet ditt, enten for å bidra til organisering, bedre gjenbruk av kode, eller utnytte kode andre har skrevet som allerede gjør det du prøver på. Mange slike funksjoner finnes i standardbiblioteket til Python. Inne i parentesen setter vi parametre som mates inn i funksjonen. Man kan ganske enkelt skrive egne funksjoner også, men for akkurat denne oppgaven er det unødvendig.
+Funksjoner er en bit med kode som gjerne defineres et annet sted enn programmet ditt, enten for å bidra til organisering, bedre gjenbruk av kode, eller utnytte kode andre har skrevet som allerede gjør det du prøver på. Mange slike funksjoner finnes i standardbiblioteket til Python. Inne i parentesen setter vi parametre som mates inn i funksjonen, så gir funksjonen deg noe tilbake. Akkurat hvordan denne inputten og returverdien ser ut, kan man finne i [dokumentasjonen](https://docs.python.org/3/library/functions.html). Man kan ganske enkelt skrive egne funksjoner også, men for akkurat denne oppgaven er det unødvendig.
 
 ## Del 1: Lese input fra terminalen
 
